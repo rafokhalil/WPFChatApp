@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp5"
         mc:Ignorable="d"
-        Title="AzeriChat" Height="450" Width="350">
-    <Grid Background="SpringGreen">
+        Title="Telegram" Height="450" Width="350" Icon="telegram.ico">
+    <Grid Background="DeepSkyBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="253*"/>
+        </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="8*"/>
@@ -15,30 +20,29 @@
 
 
 
-        <Grid Grid.Row="0">
+        <Grid Grid.Row="0" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
             <StackPanel>
-                <ListBox BorderThickness="0" Background="SpringGreen" Grid.ColumnSpan="2" Name="lstbx1" Height="350" Margin="24">
-                    
+                <ListBox BorderThickness="0" Background="DeepSkyBlue" Grid.ColumnSpan="2" Name="lstbx1" Height="350" Margin="24">
+
                 </ListBox>
             </StackPanel>
 
             <StackPanel Grid.Column="1">
-                <ListBox BorderThickness="0" Background="SpringGreen" Grid.ColumnSpan="2" Margin="20" Name="lstbx2" Height="350"></ListBox>
+                <ListBox BorderThickness="0" Background="DeepSkyBlue" Grid.ColumnSpan="2" Margin="20" Name="lstbx2" Height="350"></ListBox>
             </StackPanel>
 
-            
-            
-            
-            
-            
+
+
+
+
+
         </Grid>
 
-        
 
 
 
@@ -48,7 +52,8 @@
 
 
 
-        <Grid Grid.Row="1">
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5*"/>
                 <ColumnDefinition/>
@@ -56,14 +61,14 @@
             <TextBox Background="WhiteSmoke" Name="ChatTxtBox" FontSize="25"></TextBox>
             <Button Name="SendBtn" Grid.Column="1" Background="SkyBlue" Content="Send" FontSize="16" FontWeight="ExtraBlack" Click="SendBtn_Click"></Button>
         </Grid>
-        <Grid Grid.Row="0">
+        <Grid Grid.Row="0" Grid.ColumnSpan="3">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition Height="12*"/>
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" Orientation="Horizontal">
-                <Image Source="image/chaticon.png" Width="50"></Image>
-                <Label Name="NameLbl" Content="Chat App" FontSize="15"></Label>
+                <Image Source="600px-Telegram_logo.svg.png" Width="50"></Image>
+                <Label Name="NameLbl" Content="Chat" FontSize="15"></Label>
             </StackPanel>
         </Grid>
 

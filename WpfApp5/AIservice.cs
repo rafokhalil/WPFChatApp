@@ -11,15 +11,15 @@ namespace WpfApp5
 
         static List<string> SalamRequest = new List<string>
         {
-            "Salam brat","Aleykum Salam","Salam"
+            "Salam","Aleykum Salam","Salam"
         };
         static List<string> NecesenRequest = new List<string>
         {
-            "Sagol qardash sen necesen","Allaha shukur Yaxsi olasan brat"," Var ol brat yaxsiyam."
+            "Sagol sen necesen","Shukur yaxsi olasan"," Var ol brat yaxsiyam."
         };
         static List<string> HardasanRequest = new List<string>
         {
-            "Evdeyem brat","Derse gedirem","Isdeyem qardasim"
+            "Evdeyem ","Ise gedirem","Mehledeyem brat nese lazim idi? "
         };
         static List<string> veSRequest = new List<string>
         {

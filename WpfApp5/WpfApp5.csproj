@@ -97,10 +97,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\chaticon.png" />
+    <Resource Include="600px-Telegram_logo.svg.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\chatbackground.png" />
+    <Resource Include="telegram.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
